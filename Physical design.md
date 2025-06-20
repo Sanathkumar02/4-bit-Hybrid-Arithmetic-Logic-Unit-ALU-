@@ -53,4 +53,35 @@
 
 
  # POWERPLANNIG
+
+
+Power planning is the process of designing a robust power distribution network (PDN) in an integrated circuit (IC) layout to deliver power (VDD) and ground (VSS) to all parts of the chip.
+
+
+## 1. Power Rings
+- Placed around the core boundary.
+
+- Connects to global VDD and VSS nets.
+
+- Distributes power from the chip-level supply pads into the core.
+
+- Typically implemented on metal layer M7 and M8.
+
+## 2. Power Mesh
+- Grid-like structure inside the core that distributes power uniformly.
+
+- Interconnects macros and standard cells to the ring.
+
+- Constructed using alternating horizontal and vertical metal layers (e.g., M6/M7).
+
+## 3. Power Rails
+- Horizontal power and ground lines within each row of standard cells.
+
+- Connected to the power mesh using vias.
+
+- Ensures each standard cell receives power and ground.
+
+
+![Screenshot from 2025-06-19 14-56-07](https://github.com/user-attachments/assets/7a3a7332-d711-47f4-bc83-89abd2aba9e4)
+
  
