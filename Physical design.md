@@ -48,7 +48,7 @@
    - Ensures clean spacing for power/ground rails and signal routes
 
 
-![Screenshot from 2025-06-19 14-21-35](https://github.com/user-attachments/assets/99c42458-68ae-4618-a8db-ed603e6e8624)
+![Screenshot from 2025-06-19 14-21-35](https://github.com/user-attachments/assets/27555308-cbbc-4858-858c-6769bcf8eed4)
 
 
 
