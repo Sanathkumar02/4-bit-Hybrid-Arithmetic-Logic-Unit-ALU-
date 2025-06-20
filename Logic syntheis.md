@@ -36,5 +36,6 @@ The logic synthesis stage of a hierarchical ALU implemented using Verilog and sy
 - Technology Node: 32nm (SAED32)
 
 
-![Screenshot from 2025-06-18 18-35-12](https://github.com/user-attachments/assets/64185eb0-a9f2-4cbd-aee9-bdca6780fdab)
+![Screenshot from 2025-06-19 13-52-41](https://github.com/user-attachments/assets/5ac27c53-a349-40d1-8eff-8728ec4c9db4)
+
 
