@@ -10,3 +10,47 @@
  
  
  Floorplan view of the hierarchical ALU design with 4 sub-modules (FA_add, FA_sub, FA_inc, FA_dec) using full_adder macros.
+
+
+
+
+
+# Macro Placement
+
+- The ALU design consists of four macro blocks:
+   - FA_inc, FA_dec, FA_sub, and FA_add
+
+- Each macro is an instance of the reusable block full_adder synthesized into fulladder.db.
+
+- The macros were placed manually for better spatial organization and easier routing.
+
+- Manual placement ensures:
+
+   - Predictable routing paths
+
+   - Improved control over congestion
+
+   - Better utilization of core area
+ 
+     
+![Screenshot from 2025-06-19 14-47-36](https://github.com/user-attachments/assets/36e501a5-9260-42ea-89f8-300111e0a445)
+
+
+# Keepout Margins
+- A keepout margin was applied around each macro using ICC2’s GUI features.
+
+- Purpose of keepout margins:
+
+   -Prevents standard cell placement too close to the macros
+
+   - Avoids routing congestion near macro edges
+
+   - Ensures clean spacing for power/ground rails and signal routes
+
+
+![Screenshot from 2025-06-19 14-21-35](https://github.com/user-attachments/assets/99c42458-68ae-4618-a8db-ed603e6e8624)
+
+
+
+ # POWERPLANNIG
+ 
